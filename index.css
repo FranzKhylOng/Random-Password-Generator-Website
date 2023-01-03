@@ -1,0 +1,129 @@
+body{
+    text-align: center;
+    background-color: #1F2937;
+}
+
+.title{
+    margin-top: 150px;
+    margin-left: 200px;
+    text-align: left;
+}
+
+h1{
+    margin: 0px;
+    text-align: left;
+}
+
+#gen{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 50px;
+    font-weight: 800;
+    letter-spacing: -0.025em;
+
+    /* white */
+
+    color: #FFFFFF;
+
+}
+
+#ran{
+
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 120px;
+    /* or 100% */
+    letter-spacing: -0.025em;
+    color: #4ADF86;
+
+}
+
+p{
+    margin: 5px 0px;
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 39px;
+    line-height: 28px;
+    color: #D5D4D8;
+}
+
+.generate{
+    margin-top: 90px;
+    margin-bottom: 80px;
+    padding: 15px 29px 13px 25px;
+    gap: 19px;
+    width: 377px;
+    height: 77px;
+
+    top: 279px;
+    border: none;
+    background: #10B981;
+    /* shadow/sm */
+
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 24px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.generate:active {
+    background-color: #0d9d6d;
+    transform: translateY(4px);
+  }
+
+.line{
+    border: 1px solid #2F3E53;
+    width: 60%;
+}
+
+
+.pass{
+    display: inline-block;
+    margin-top: 50px;
+    margin-right: 60px;
+    background: #273549;
+    border-radius: 6px; 
+    border: none;
+    gap: 19px;
+    width: 465px;
+    height: 77px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    color: #55F991;
+}
+
+#pass1, #pass2{
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    margin: 0;
+}
+
+.passwords{
+    display: inline-block;
+    justify-content: space-evenly;
+}
